@@ -20,7 +20,7 @@ class BookHome extends LitElement {
           display: block;
         }
 
-        .books-bg {
+        .niki {
           height: 300px;
           max-width: 570px;
           margin: 0 auto;
@@ -39,7 +39,7 @@ class BookHome extends LitElement {
         }
       </style>
 
-      <book-image class="books-bg" alt="Books Home" center src="images/books-bg.jpg" placeholder="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAIAAADwyuo0AAAAI0lEQVR4AWPw2v7Wfe1Dj7X3/Pd8YPDf+Uqva79x38GQvW8Bu0sOexptskUAAAAASUVORK5CYII="></book-image>
+      <book-image class="niki" alt="Books Home" center src="images/niki.png" placeholder="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAIAAADwyuo0AAAAI0lEQVR4AWPw2v7Wfe1Dj7X3/Pd8YPDf+Uqva79x38GQvW8Bu0sOexptskUAAAAASUVORK5CYII="></book-image>
 
       <div class="books-desc">Search the world's most comprehensive index of full-text books.</div>
     `;
