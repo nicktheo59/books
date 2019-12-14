@@ -253,7 +253,7 @@ class BookApp extends connect(store)(LitElement) {
     </main>
 
     <footer>
-      <p>Made with &lt;3 by the Polymer team.</p>
+      <p>Made in Cyprus.</p>
     </footer>
 
     <snack-bar active?="${_snackbarOpened}">

@@ -122,7 +122,7 @@ class BookExplore extends connect(store)(PageViewElement) {
 
         <book-image class="niki" alt="Books Home" center src="images/niki.png" hidden="${_query}" placeholder="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAIAAADwyuo0AAAAI0lEQVR4AWPw2v7Wfe1Dj7X3/Pd8YPDf+Uqva79x38GQvW8Bu0sOexptskUAAAAASUVORK5CYII="></book-image>
 
-        <div class="books-desc" hidden="${_query}">Search the world's most comprehensive index of full-text books.</div>
+        <div class="books-desc" hidden="${_query}">Search the world's most comprehensive index of full-text books. And Soon YouTube Captions</div>
       </section>
 
       <book-offline hidden="${!_showOffline}" on-refresh="${() => store.dispatch(refreshPage())}"></book-offline>
